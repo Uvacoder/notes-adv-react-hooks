@@ -119,7 +119,7 @@ ReactDOM.render(<FooDisplay />, document.getElementById('root'))
   - There are cases where you may not want the behaviour `useEffect` provides. e.g. if you need to make a visual change to
 the DOM as a side effect. To prevent the user from seeing flickers of changes, you may use `useLayoutEffect`. 
 
-> The function passed to `useLayoutEffect` will be run before the browser updates the screen. 
+- The function passed to `useLayoutEffect` will be run before the browser updates the screen. 
 
 
 ## 05. `useImperativeHandle`
@@ -157,7 +157,7 @@ function Parent() {
 export default Parent;
 ```
 
-`useImperativeHandle` can be used to expose only the input DOM element to the parent.
+- `useImperativeHandle` can be used to expose only the input DOM element to the parent.
 
 
 ## 06. `useDebugValue`
